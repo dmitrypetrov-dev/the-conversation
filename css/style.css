@@ -180,11 +180,24 @@ input, textarea {
 /*Intro styles*/
 
 .intro {
-    background: url(../img/intro-bg.jpg) center no-repeat;
-    background-size: cover;
+    background: url(../img/intro-bg.png) top no-repeat;
+    width: 1440px;
     height: 848px;
+    margin: 0 auto;
     padding-top: 122px;
     margin-bottom: 240px;
+    position: relative;
+}
+
+.intro::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 477px;
+    left: 0;
+    bottom: -54%;
+    background: url(../img/intro-bg.png) bottom no-repeat;
+    z-index: -100;
 }
 
 .intro__title {
@@ -262,6 +275,8 @@ input, textarea {
     top: 0;
     left: 48px;
     box-shadow: 0 4px 100px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    background: url(../img/technology-img.jpg) center no-repeat;
 }
 
 .technology__right {
@@ -303,6 +318,30 @@ input, textarea {
     height: 304px;
     margin-bottom: 100px;
     position: relative;
+}
+
+.banner::before {
+    position: absolute;
+    content: "";
+    width: 370px;
+    height: 270px;
+    right: 226px;
+    top: -26px;
+    background: url(../img/svg/banner-img-2.svg) no-repeat;
+    background-position: 104% 42%;
+    z-index: 100;
+}
+
+.banner::after {
+    position: absolute;
+    content: "";
+    width: 370px;
+    height: 270px;
+    right: 226px;
+    top: -26px;
+    background: url(../img/svg/banner-img.svg) no-repeat;
+    background-position: 100% 53%;
+    z-index: 150;
 }
 
 .banner__block {
@@ -806,6 +845,7 @@ input, textarea {
     background-color: rgba(80, 76, 104, 0.8);
     outline: none;
     padding: 0 0 5px 13px;
+    color: #fff;
 }
 
 .feedback__form-field:first-child {
@@ -832,6 +872,7 @@ input, textarea {
     outline: none;
     padding: 3px 0 0 13px;
     resize: vertical;
+    color: #fff;
 }
 
 .feedback__form-btn {
