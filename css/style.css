@@ -84,31 +84,6 @@ input, textarea {
     appearance: none;
 }
 
-@media screen and (max-width: 1600px) {
-    .container {
-        max-width: 1370px;
-        margin: 0 auto;
-    }
-
-}
-
-@media screen and (max-width: 1200px) {
-
-    .container {
-        max-width: 1048px;
-        margin: 0 auto;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-    .container {
-        max-width: 874px;
-        margin: 0 auto;
-    }
-
-}
-
 @media screen and (max-width: 768px) {
     .container {
         max-width: 658px;
