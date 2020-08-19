@@ -50,13 +50,13 @@
             <div class="intro__globe"></div>
         </div>
         <section class="technology" id="technology">
-            <div class="technology__wrapper wow animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <div class="technology__left">
+            <div class="technology__wrapper">
+                <div class="technology__left wow animate__animated animate__slideInLeft" data-wow-duration="1s">
                     <div class="technology__icons">
                         <img src="img/technology-img.jpg" alt="Technology">
                     </div>
                 </div>
-                <div class="technology__right">
+                <div class="technology__right wow animate__animated animate__slideInRight" data-wow-duration="1s">
                     <h2 class="technology__title section-title">Technology</h2>
                     <p class="technology__subtitle section-subtitle">Our ‘Fabric’ Algorithm Weaves Together News, Social
                         & Web
@@ -67,11 +67,13 @@
             </div>
         </section>
         <div class="banner">
-            <div class="banner__block"><p class="wow animate__animated animate__fadeInUp" data-wow-duration="2s">Solutions to Save Time, Keep You Informed.</p></div>
+            <div class="banner__block"></div>
+            <h2 class="wow animate__animated animate__fadeInUp" data-wow-duration="2s">Solutions to Save Time, Keep You
+                Informed.</h2>
         </div>
         <section class="on-the-go">
-            <div class="on-the-go__wrapper wow animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <div class="on-the-go__left">
+            <div class="on-the-go__wrapper">
+                <div class="on-the-go__left wow animate__animated animate__slideInLeft" data-wow-duration="1s">
                     <h2 class="on-the-go__title section-title">Use it on-the-go</h2>
                     <p class="on-the-go__subtitle section-subtitle">For News Junkies, an<br>
                         A.I. Assistant to Discover Top Social Reaction</p>
@@ -85,25 +87,35 @@
                     </div>
                     <a class="on-the-go-btn btn-gray" href="#!">Download Chrome Assistant extension</a>
                 </div>
-                <div class="on-the-go__right">
+                <div class="on-the-go__right wow animate__animated animate__slideInRight" data-wow-duration="1s">
                     <div class="browser-window">
-                        <div class="browser-window__panel">
-                            <span class="browser-window__btn-red"></span>
-                            <span class="browser-window__btn-yellow"></span>
-                            <span class="browser-window__btn-green"></span>
-                        </div>
+                        <lottie-player
+                                autoplay
+                                loop
+                                mode="normal"
+                                src="https://assets6.lottiefiles.com/packages/lf20_9JvcnA.json"
+                                style="width: 100%; height: 100%"
+                        >
+                        </lottie-player>
                     </div>
                 </div>
             </div>
         </section>
         <section class="production">
-            <div class="production__wrapper wow animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <div class="production__left">
+            <div class="production__wrapper">
+                <div class="production__left wow animate__animated animate__slideInLeft" data-wow-duration="1s">
                     <div class="production__browser-window">
-                        <img src="img/production-img.jpg" alt="In content production">
+                        <lottie-player
+                                autoplay
+                                loop
+                                mode="normal"
+                                src="https://assets7.lottiefiles.com/packages/lf20_L7Ewac.json"
+                                style="width: 100%; height: 100%"
+                        >
+                        </lottie-player>
                     </div>
                 </div>
-                <div class="production__right">
+                <div class="production__right wow animate__animated animate__slideInRight" data-wow-duration="1s">
                     <h2 class="production__title section-title">In content production</h2>
                     <p class="production__subtitle section-subtitle">Bringing Efficiency
                         for News Rooms and Social Agencies</p>
@@ -125,15 +137,15 @@
             </div>
         </section>
         <section class="enterprise">
-            <div class="enterprise__wrapper wow animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <div class="enterprise__left">
+            <div class="enterprise__wrapper">
+                <div class="enterprise__left wow animate__animated animate__slideInLeft" data-wow-duration="1s">
                     <h2 class="enterprise__title section-title">Enterprise</h2>
                     <p class="enterprise__subtitle section-subtitle">Custom Solutions: Applications for Your Needs</p>
                     <p class="enterprise__text">Need a specific solution tailored for your business requirements? Tell
                         us about your needs.</p>
                     <a class="enterprise-btn btn-gray" href="#!">Contact us</a>
                 </div>
-                <div class="enterprise__right">
+                <div class="enterprise__right wow animate__animated animate__slideInRight" data-wow-duration="1s">
                     <div class="enterprise__browser-window">
                         <img src="img/enterprise-img.jpg" alt="Enterprise">
                     </div>
@@ -141,8 +153,8 @@
             </div>
         </section>
         <section class="extension" id="extension">
-            <h2 class="extension__title wow animate__animated animate__fadeInUp" data-wow-duration="2s">Get Started With a Personal Assistant Extension</h2>
-            <div class="extension__blocks wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+            <h2 class="extension__title">Get Started With a Personal Assistant Extension</h2>
+            <div class="extension__blocks">
                 <div class="extension__block">
                     <div class="extension__block-header">
                         <span>Free</span>
@@ -194,9 +206,12 @@
             </div>
         </section>
         <section class="feedback" id="feedback">
-            <h2 class="feedback__title wow animate__animated animate__fadeInUp" data-wow-duration="2s">Get in Touch</h2>
-            <p class="feedback__subtitle wow animate__animated animate__fadeInUp" data-wow-duration="2s">We’re looking forward to talking to you</p>
-            <form class="feedback__form wow animate__animated animate__fadeInUp" data-wow-duration="2s" action="#" method="post">
+            <h2 class="feedback__title wow animate__animated animate__slideInLeft" data-wow-duration="1s">Get in
+                Touch</h2>
+            <p class="feedback__subtitle wow animate__animated animate__slideInLeft" data-wow-duration="1s">We’re
+                looking forward to talking to you</p>
+            <form class="feedback__form wow animate__animated animate__slideInRight" data-wow-duration="1s" action="#"
+                  method="post">
                 <input class="feedback__form-field" type="text" name="name" placeholder="Name" required
                        onfocus="if (placeholder == 'Name') {placeholder = ''}"
                        onblur="if (placeholder == '') {placeholder = 'Name'}">
@@ -215,6 +230,7 @@
     </footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
 <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
 <script>new WOW().init();</script>
