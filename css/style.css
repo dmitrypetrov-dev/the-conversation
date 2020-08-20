@@ -229,24 +229,23 @@ input, textarea {
     margin-bottom: 61px;
 }
 
-.btn-white {
-    display: inline-block;
+.intro-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: Mediator, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 3;
+    line-height: 26px;
+    width: 193px;
+    height: 47px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    border: 2px solid #fff;
+    border: 1.5px solid #fff;
     transition: all .2s linear;
-}
-
-.intro-btn {
-    width: 193px;
-    height: 47px;
 }
 
 .intro-btn:hover,
@@ -306,8 +305,9 @@ input, textarea {
 .technology__right {
     width: 484px;
     position: absolute;
-    top: -172px;
+    top: -202px;
     right: 0;
+    padding-top: 30px;
 }
 
 .section-title {
@@ -324,17 +324,23 @@ input, textarea {
     margin-bottom: 34px;
 }
 
-.section-subtitle {
+.technology__subtitle {
     font-family: Muli, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 153%;
     color: #444058;
+    margin-bottom: 45px;
 }
 
-.technology__subtitle {
-    margin-bottom: 45px;
+.technology__text {
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 175%;
+    color: #444058;
 }
 
 /*Technology styles end*/
@@ -347,7 +353,7 @@ input, textarea {
     position: relative;
 }
 
-.banner::before {
+.banner__sphere {
     position: absolute;
     content: "";
     width: 370px;
@@ -357,10 +363,9 @@ input, textarea {
     background: url(../img/svg/banner-img-2.svg) no-repeat;
     background-position: 104% 42%;
     z-index: 100;
-    opacity: .9;
 }
 
-.banner::after {
+.banner__silk {
     position: absolute;
     content: "";
     width: 370px;
@@ -370,7 +375,6 @@ input, textarea {
     background: url(../img/svg/banner-img.svg) no-repeat;
     background-position: 100% 53%;
     z-index: 150;
-    opacity: .8;
 }
 
 .banner__block {
@@ -398,12 +402,12 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
-    .banner::before {
+    .banner__sphere {
         right: -35px;
         top: -24px;
     }
 
-    .banner::after {
+    .banner__silk {
         right: -37px;
         top: -27px;
     }
@@ -459,8 +463,6 @@ input, textarea {
     top: 27px;
     left: 25px;
     border-radius: 7px;
-
-
 }
 
 .browser-window__panel {
@@ -502,13 +504,24 @@ input, textarea {
 }
 
 .on-the-go__subtitle {
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    color: #444058;
     margin-bottom: 35px;
 }
 
 .on-the-go__text {
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 19px;
+    line-height: 175%;
     color: #434343;
     margin-bottom: 35px;
+
 }
 
 .on-the-go__links {
@@ -640,6 +653,8 @@ input, textarea {
 }
 
 .production__subtitle {
+    font-family: Muli, sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 42px;
     line-height: 53px;
@@ -654,7 +669,10 @@ input, textarea {
 }
 
 .production__list-item {
-    font-size: 20px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
     line-height: 40px;
     color: #6E6A83;
     position: relative;
@@ -717,6 +735,8 @@ input, textarea {
 }
 
 .enterprise__subtitle {
+    font-family: Muli, sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 42px;
     line-height: 53px;
@@ -725,6 +745,12 @@ input, textarea {
 }
 
 .enterprise__text {
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 175%;
+    color: #6E6A83;
     margin-bottom: 37px;
 }
 
@@ -763,8 +789,8 @@ input, textarea {
 /*Extension styles*/
 
 .extension {
-    padding: 30px 0 0 0;
-    margin-bottom: 44px;
+    padding: 30px 0 44px 0;
+    background-color: #fff;
 }
 
 .extension__title {
@@ -792,6 +818,7 @@ input, textarea {
     height: 634px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
+    background-color: #fff;
 }
 
 .extension__block-header {
