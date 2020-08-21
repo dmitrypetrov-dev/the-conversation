@@ -64,6 +64,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Heavy.eot');
+    src: local('Avenir Heavy'), local('Avenir-Heavy'),
+    url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Avenir-Heavy.woff2') format('woff2'),
+    url('../fonts/Avenir-Heavy.woff') format('woff'),
+    url('../fonts/Avenir-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -198,14 +210,146 @@ input, textarea {
     background: url(../img/intro-globe.png) center no-repeat;
 }
 
-.intro__globe::before {
+.globe-location-1 {
+    position: absolute;
+    width: 152px;
+    height: 28px;
+    top: 115px;
+    left: 222px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: skew(-22deg);
+}
+
+.globe-location-1::before {
     position: absolute;
     content: "";
-    width: 600px;
-    height: 300px;
-    top: 59px;
-    right: -54px;
-    background: url(../img/intro-globe-locations.png) center no-repeat;
+    width: 32px;
+    height: 65px;
+    top: -19px;
+    left: -36px;
+    transform: skew(22deg);
+    background: url(../img/svg/globe-location-1.svg) center no-repeat;
+}
+
+.globe-location-1-text {
+    width: 100%;
+    height: 100%;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 159.6%;
+    letter-spacing: 0.025em;
+    color: #fff;
+    transform: skew(22deg);
+    padding: 3px 0 0 21px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.globe-location-1 div:last-child {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 152px;
+    border-left: 0 solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 28px solid rgba(255, 255, 255, 0.5);
+}
+
+.globe-location-2 {
+    position: absolute;
+    width: 174px;
+    height: 27px;
+    top: 191px;
+    left: 358px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: skew(-22deg);
+}
+
+.globe-location-2::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 58px;
+    top: -18px;
+    left: -35px;
+    transform: skew(22deg);
+    background: url(../img/svg/globe-location-2.svg) center no-repeat;
+}
+
+.globe-location-2-text {
+    width: 100%;
+    height: 100%;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 159.6%;
+    letter-spacing: 0.025em;
+    color: #fff;
+    transform: skew(22deg);
+    padding: 2px 0 0 15px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.globe-location-2 div:last-child {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 174px;
+    border-left: 0 solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 27px solid rgba(255, 255, 255, 0.5);
+}
+
+.globe-location-3 {
+    position: absolute;
+    width: 174px;
+    height: 27px;
+    top: 281px;
+    left: -36px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: skew(25deg);
+}
+
+.globe-location-3::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 58px;
+    top: -16px;
+    right: -34px;
+    transform: skew(-25deg);
+    background: url(../img/svg/globe-location-3.svg) center no-repeat;
+}
+
+.globe-location-3-text {
+    width: 100%;
+    height: 100%;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 159.6%;
+    letter-spacing: 0.025em;
+    color: #fff;
+    transform: skew(-25deg);
+    padding: 2px 0 0 2px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.globe-location-3 div:last-child {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -11px;
+    border-top: 3px solid transparent;
+    border-left: 11px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 24px solid rgba(255, 255, 255, 0.5);
 }
 
 .intro__title {
