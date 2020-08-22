@@ -521,7 +521,7 @@ input, textarea {
 
     .technology__right {
         position: static;
-        margin-top: 360px;
+        margin-top: 375px;
     }
 }
 
@@ -601,9 +601,15 @@ input, textarea {
 }
 
 @media screen and (max-width: 768px) {
+
+    .banner {
+        margin-bottom: 85px;
+    }
+
     .banner h2 {
         font-size: 33px;
         left: 7.5%;
+        margin-top: 102px;
     }
 
     .banner__silk {
