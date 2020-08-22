@@ -808,7 +808,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .on-the-go {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .on-the-go__wrapper {
@@ -944,7 +944,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .production {
-        margin-bottom: 180px;
+        margin-bottom: 170px;
     }
 
     .production__wrapper {
@@ -953,7 +953,7 @@ input, textarea {
     }
 
     .production__right {
-        margin-top: 360px;
+        margin-top: 435px;
     }
 }
 
