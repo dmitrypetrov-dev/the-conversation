@@ -1,3 +1,20 @@
+var headerMenuLinks = document.querySelectorAll('.header-nav__link');
+var burgerMenu = document.querySelector('.header-burger__menu');
+var headerMenu = document.querySelector('.site-navigation');
+var body = document.querySelector('body');
+
+(function () {
+    if (window.innerWidth <= 768) {
+        for (var i = 0; i < headerMenuLinks.length; i += 1) {
+            headerMenuLinks[i].addEventListener('click', function () {
+                burgerMenu.classList.toggle('active');
+                headerMenu.classList.toggle('active');
+                body.classList.toggle('lock');
+            });
+        }
+    }
+})();
+
 // burger menu
 
 $(document).ready(function () {
