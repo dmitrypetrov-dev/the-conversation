@@ -554,6 +554,19 @@ input, textarea {
 
 }
 
+@media screen and (max-width: 375px) {
+
+    .intro__title {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .intro__subtitle {
+        font-size: 14px;
+    }
+
+}
+
 /*Intro styles end*/
 
 /*Technology styles*/
@@ -677,6 +690,17 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 375px) {
+
+    .technology__right {
+        margin-top: 290px;
+    }
+
+    .technology__icons {
+        height: 424px;
+    }
+}
+
 /*Technology styles end*/
 
 /*Banner styles*/
@@ -780,6 +804,17 @@ input, textarea {
         font-size: 27px;
         left: 4.5%;
         margin-top: 99px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .banner h2 {
+        font-size: 27px;
+        left: 2.6%;
+        margin-top: 80px;
+        text-align: center;
     }
 
 }
@@ -1011,6 +1046,15 @@ input, textarea {
         line-height: 140%;
     }
 
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .on-the-go-btn {
+        width: 100%;
+        font-size: 16px;
+    }
 
 }
 
@@ -1460,6 +1504,11 @@ input, textarea {
     .extension__block {
         margin-right: 20px;
     }
+
+    .extension__title {
+        font-size: 34px;
+        line-height: 48px;
+    }
 }
 
 /*Extension styles end*/
@@ -1594,6 +1643,17 @@ input, textarea {
 
     .feedback__form-field {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .feedback__title {
+        font-size: 37px;
+    }
+
+    .feedback__subtitle {
+        font-size: 18px;
     }
 }
 
