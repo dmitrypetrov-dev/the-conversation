@@ -693,11 +693,11 @@ input, textarea {
 @media screen and (max-width: 375px) {
 
     .technology__right {
-        margin-top: 290px;
+        margin-top: 245px;
     }
 
     .technology__icons {
-        height: 424px;
+        height: 360px;
     }
 }
 
@@ -809,6 +809,11 @@ input, textarea {
 }
 
 @media screen and (max-width: 375px) {
+
+    .banner__block {
+        width: 105%;
+        left: -5px;
+    }
 
     .banner h2 {
         font-size: 27px;
@@ -1050,6 +1055,10 @@ input, textarea {
 }
 
 @media screen and (max-width: 375px) {
+
+    .browser-window {
+        height: 285px;
+    }
 
     .on-the-go-btn {
         width: 100%;
