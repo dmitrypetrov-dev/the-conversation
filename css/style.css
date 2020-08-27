@@ -699,6 +699,14 @@ input, textarea {
     .technology__icons {
         height: 360px;
     }
+
+    .technology__subtitle {
+        font-size: 31px;
+    }
+
+    .technology__text {
+        font-size: 18px;
+    }
 }
 
 /*Technology styles end*/
@@ -1056,13 +1064,26 @@ input, textarea {
 
 @media screen and (max-width: 375px) {
 
+    .on-the-go__right {
+        margin-top: 300px;
+    }
+
     .browser-window {
         height: 285px;
+        top: -380px;
     }
 
     .on-the-go-btn {
         width: 100%;
         font-size: 16px;
+    }
+
+    .on-the-go__subtitle {
+        font-size: 31px;
+    }
+
+    .on-the-go__text {
+        font-size: 18px;
     }
 
 }
