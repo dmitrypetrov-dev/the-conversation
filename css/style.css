@@ -1384,6 +1384,26 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 375px) {
+
+    .enterprise__subtitle {
+        font-size: 31px;
+    }
+
+    .enterprise__text {
+        font-size: 18px;
+    }
+
+    .enterprise__right {
+        margin-top: 260px;
+    }
+
+    .enterprise__browser-window {
+        height: 300px;
+        top: -350px;
+    }
+}
+
 /*Enterprise styles end*/
 
 /*Extension styles*/
