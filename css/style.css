@@ -1064,13 +1064,17 @@ input, textarea {
 
 @media screen and (max-width: 375px) {
 
+    .on-the-go {
+        margin-bottom: 30px;
+    }
+
     .on-the-go__right {
-        margin-top: 300px;
+        margin-top: 270px;
     }
 
     .browser-window {
         height: 285px;
-        top: -380px;
+        top: -356px;
     }
 
     .on-the-go-btn {
@@ -1236,6 +1240,25 @@ input, textarea {
     .production__subtitle {
         font-size: 37px;
         line-height: 140%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .production__browser-window {
+        height: 300px;
+    }
+
+    .production__right {
+        margin-top: 385px;
+    }
+
+    .production__subtitle {
+        font-size: 31px;
+    }
+
+    .production__list-item {
+        font-size: 18px;
     }
 }
 
