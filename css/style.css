@@ -792,7 +792,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .banner {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .banner__block {
@@ -1040,7 +1040,7 @@ input, textarea {
     }
 
     .on-the-go__left {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .on-the-go__right {
@@ -1226,12 +1226,12 @@ input, textarea {
     }
 
     .production__wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
     .production__right {
-        margin-top: 435px;
+        
     }
 }
 
