@@ -792,7 +792,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .banner {
-        margin-bottom: 85px;
+        margin-bottom: 60px;
     }
 
     .banner__block {
@@ -1031,21 +1031,24 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .on-the-go {
-        margin-bottom: 15px;
+        margin-bottom: 250px;
     }
 
     .on-the-go__wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
+    }
+
+    .on-the-go__left {
+        margin-bottom: 100px;
     }
 
     .on-the-go__right {
         height: 100%;
-        margin-top: 360px;
     }
 
     .browser-window {
-        top: -468px;
+        top: 0;
     }
 }
 
