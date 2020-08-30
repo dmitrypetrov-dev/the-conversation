@@ -1034,6 +1034,10 @@ input, textarea {
         margin-bottom: 170px;
     }
 
+    .on-the-go::before {
+        top: 41%;
+    }
+
     .on-the-go__wrapper {
         flex-direction: column;
         align-items: center;
@@ -1224,6 +1228,10 @@ input, textarea {
 
     .production {
         margin-bottom: 170px;
+    }
+
+    .production::before {
+        top: 30%;
     }
 
     .production__wrapper {
