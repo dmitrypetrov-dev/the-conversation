@@ -1386,6 +1386,7 @@ input, textarea {
     }
 
     .enterprise__browser-window {
+        width: 100%;
         left: 0;
         top: 0;
     }
