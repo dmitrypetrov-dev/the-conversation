@@ -1369,7 +1369,7 @@ input, textarea {
 
 @media screen and (max-width: 768px) {
     .enterprise {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     .enterprise__wrapper {
