@@ -1031,7 +1031,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .on-the-go {
-        margin-bottom: 200px;
+        margin-bottom: 170px;
     }
 
     .on-the-go__wrapper {
@@ -1232,7 +1232,7 @@ input, textarea {
     }
 
     .production__right {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
 
     .production__left {
@@ -1241,7 +1241,7 @@ input, textarea {
 
     .production__browser-window {
         top: 0;
-        left: 0;
+        left: 20px;
     }
 }
 
@@ -1369,21 +1369,25 @@ input, textarea {
 
 @media screen and (max-width: 768px) {
     .enterprise {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .enterprise__wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
+    .enterprise__left {
+        margin-bottom: 85px;
+    }
+
     .enterprise__right {
-        height: 100%;
-        margin-top: 360px;
+        height: 418px;
     }
 
     .enterprise__browser-window {
-        top: -468px;
+        left: 0;
+        top: 0;
     }
 }
 
