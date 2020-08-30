@@ -263,7 +263,7 @@ input, textarea {
         width: 100%;
         height: 4px;
         left: 0;
-        transition: all .3s ease;
+        transition: all .4s ease;
     }
 
     .header-burger__menu::before {
@@ -647,25 +647,29 @@ input, textarea {
 
     .technology {
         height: 900px;
+        margin-bottom: 100px;
     }
 
     .technology__wrapper {
         padding: 0 15px;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
     .technology__left {
         position: relative;
-        height: 100%;
+        height: 50%;
+        top: -64px;
     }
 
     .technology__right {
-        position: static;
-        margin-top: 375px;
+        top: -199px;
+        right: 17%;
+        height: 60%;
     }
 
     .technology__icons {
+        top: 20px;
         left: 0;
     }
 }
@@ -681,7 +685,8 @@ input, textarea {
     }
 
     .technology__right {
-        width: 100%;
+        right: 0;
+        width: 95%;
     }
 
     .technology__subtitle {
@@ -788,6 +793,10 @@ input, textarea {
 
     .banner {
         margin-bottom: 85px;
+    }
+
+    .banner__block {
+        width: 105%;
     }
 
     .banner h2 {
