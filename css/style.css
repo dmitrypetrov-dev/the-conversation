@@ -1044,11 +1044,12 @@ input, textarea {
     }
 
     .on-the-go__right {
-        height: 100%;
+        height: 439px;
     }
 
     .browser-window {
         top: 0;
+        left: 0;
     }
 }
 
@@ -1231,7 +1232,7 @@ input, textarea {
     }
 
     .production__right {
-        
+
     }
 }
 
