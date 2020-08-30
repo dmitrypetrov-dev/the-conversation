@@ -1031,7 +1031,7 @@ input, textarea {
 @media screen and (max-width: 768px) {
 
     .on-the-go {
-        margin-bottom: 250px;
+        margin-bottom: 200px;
     }
 
     .on-the-go__wrapper {
@@ -1232,7 +1232,16 @@ input, textarea {
     }
 
     .production__right {
+        margin-bottom: 100px;
+    }
 
+    .production__left {
+        height: 407px;
+    }
+
+    .production__browser-window {
+        top: 0;
+        left: 0;
     }
 }
 
