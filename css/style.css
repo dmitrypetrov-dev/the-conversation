@@ -847,7 +847,17 @@ input, textarea {
     position: relative;
 }
 
-
+.on-the-go::before {
+    position: absolute;
+    content: "";
+    width: 43.93%;
+    height: 117.42%;
+    top: -91px;
+    right: 0;
+    background: url(../img/svg/on-the-go-bg.svg) no-repeat;
+    background-position: 96% 0;
+    z-index: -50;
+}
 
 .on-the-go__wrapper {
     max-width: 1161px;
@@ -863,18 +873,6 @@ input, textarea {
 .on-the-go__right {
     width: 610px;
     position: relative;
-}
-
-.on-the-go__right::before {
-    position: absolute;
-    content: "";
-    width: 98.36%;
-    height: 124.74%;
-    top: -124px;
-    right: -108px;
-    background: url(../img/svg/on-the-go-bg.svg) no-repeat;
-    background-position: 96% 0;
-    z-index: -50;
 }
 
 .browser-window {
