@@ -1031,7 +1031,8 @@ input, textarea {
     }
 
     .on-the-go::before {
-        top: 41%;
+        top: 47%;
+        height: 60%;
     }
 
     .on-the-go__wrapper {
