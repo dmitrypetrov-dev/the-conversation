@@ -529,8 +529,16 @@ input, textarea {
 }
 
 @media screen and (max-width: 1050px) {
+
+    .intro {
+        max-width: 100%;
+    }
+
     .intro__globe {
-        display: none;
+        top: 526px;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .intro__wrapper {
@@ -550,6 +558,10 @@ input, textarea {
     .intro__title {
         font-size: 47px;
         line-height: 60px;
+    }
+
+    .intro__globe {
+        top: 478px;
     }
 
 }
@@ -643,7 +655,7 @@ input, textarea {
     color: #444058;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
 
     .technology {
         height: 900px;
@@ -651,6 +663,7 @@ input, textarea {
     }
 
     .technology__wrapper {
+        max-width: 100%;
         padding: 0 15px;
         flex-direction: column-reverse;
         align-items: center;
@@ -663,9 +676,11 @@ input, textarea {
     }
 
     .technology__right {
-        top: -199px;
-        right: 17%;
+        width: 100%;
+        top: -125px;
+        right: 0;
         height: 60%;
+        text-align: center;
     }
 
     .technology__icons {
@@ -680,13 +695,12 @@ input, textarea {
         max-width: 100%;
     }
 
-    .technology__left {
-        width: 100%;
+    .technology__right {
+        top: -170px;
     }
 
-    .technology__right {
-        right: 0;
-        width: 95%;
+    .technology__left {
+        width: 100%;
     }
 
     .technology__subtitle {
@@ -882,6 +896,7 @@ input, textarea {
     top: 27px;
     left: 25px;
     border-radius: 7px;
+    background-color: #fff;
 }
 
 .browser-window__panel {
