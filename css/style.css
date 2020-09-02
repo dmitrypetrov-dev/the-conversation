@@ -566,6 +566,14 @@ input, textarea {
 
 }
 
+@media screen and (max-width: 599px) {
+
+    .intro__globe {
+        display: none;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
 
     .intro__title {
