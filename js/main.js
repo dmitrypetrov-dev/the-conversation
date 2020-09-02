@@ -53,7 +53,20 @@ $(document).ready(function () {
 // jquery slider
 
 $(document).ready(function () {
-    if ($(window).width() > 480 && $(window).width() < 601) {
+    if ($(window).width() > 600 && $(window).width() < 701) {
+        $('.extension__blocks').slick({
+            arrows: false,
+            dots: false,
+            infinite: false,
+            fade: false,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            speed: 400,
+            centerMode: true,
+            centerPadding: '140px',
+            slidesToShow: 1,
+        });
+    } else if ($(window).width() > 480 && $(window).width() < 601) {
         $('.extension__blocks').slick({
             arrows: false,
             dots: false,
