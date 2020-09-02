@@ -1625,6 +1625,7 @@ input, textarea {
     .extension__block {
         max-width: 336px;
         margin-right: 35px;
+        outline: none;
     }
 }
 
