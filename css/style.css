@@ -1257,6 +1257,13 @@ input, textarea {
         margin-bottom: 60px;
     }
 
+    .production__list {
+        text-align: left;
+        width: 510px;
+        padding: 0 0 0 95px;
+        margin: 0 auto;
+    }
+
     .production__left {
         height: 407px;
     }
@@ -1384,12 +1391,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 1050px) {
-    .enterprise__wrapper {
-        padding: 0 15px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .enterprise {
         margin-bottom: 150px;
     }
@@ -1397,9 +1398,12 @@ input, textarea {
     .enterprise__wrapper {
         flex-direction: column;
         align-items: center;
+        padding: 0 15px;
     }
 
     .enterprise__left {
+        width: 100%;
+        text-align: center;
         margin-bottom: 85px;
     }
 
@@ -1411,6 +1415,10 @@ input, textarea {
         width: 100%;
         left: 0;
         top: 0;
+    }
+
+    .enterprise-btn {
+        margin: 0 auto;
     }
 }
 
@@ -1574,18 +1582,49 @@ input, textarea {
     color: #fff;
 }
 
+@media screen and (max-width: 1200px) {
+
+    .extension__blocks {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .extension__block {
+        margin-right: 25px;
+    }
+
+    .extension__block:last-child {
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .extension__title {
         margin-bottom: 50px;
     }
 
-    .extension__blocks {
-        padding: 0 15px;
+    .extension__block {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .slick-list {
+        overflow: hidden;
+    }
+
+    .slick-track {
+        display: flex;
+        padding: 35px 0;
     }
 
     .extension__block {
-        width: 230px;
+        max-width: 336px;
+        margin-right: 35px;
     }
 }
 
@@ -1601,16 +1640,7 @@ input, textarea {
 
     .extension__block {
         max-width: 300px;
-        margin-right: 50px;
-    }
-
-    .slick-list {
-        overflow: hidden;
-    }
-
-    .slick-track {
-        display: flex;
-        padding: 35px 0;
+        margin-right: 35px;
     }
 }
 
