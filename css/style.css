@@ -193,6 +193,28 @@ input, textarea {
     opacity: .7;
 }
 
+@media screen and (max-width: 1366px) {
+
+    .header {
+        padding: 9px 0 2px 0;
+    }
+
+    .header__wrapper {
+        padding-right: 84px;
+    }
+
+    .header-logo {
+        padding-top: 1px;
+        max-width: 177px;
+    }
+
+    .header-nav__link {
+        font-size: 13px;
+        margin-right: 44px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     body.lock {
@@ -518,12 +540,55 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .container {
+        max-width: 1149px;
+    }
+
     .intro {
-        background: url(../img/intro-bg.png) -37px -12px no-repeat;
+        padding-top: 117px;
+        background: url(../img/intro-bg.png) 0 -12px no-repeat;
+        background-size: cover;
+    }
+
+    .intro__title {
+        font-size: 54px;
+        line-height: 73px;
+        color: #fff;
+        max-width: 540px;
+        margin-bottom: 34px;
+    }
+
+    .intro__subtitle {
+        font-size: 15px;
+        margin-bottom: 58px;
+    }
+
+    .intro-btn {
+        width: 182px;
+        height: 44px;
     }
 
     .intro__globe {
-        right: 5%;
+        width: 400px;
+        height: 400px;
+        top: 102px;
+        right: 11.89%;
+        background-size: 469px;
+    }
+
+    .globe-location-1 {
+        top: 81px;
+        left: 177px;
+    }
+
+    .globe-location-2 {
+        top: 153px;
+        left: 306px;
+    }
+
+    .globe-location-3 {
+        top: 238px;
+        left: -78px;
     }
 
 }
