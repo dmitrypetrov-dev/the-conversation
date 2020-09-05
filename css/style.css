@@ -899,14 +899,29 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .banner {
+        margin-bottom: 78px;
+    }
+
+    .banner__block {
+        height: 242px;
+    }
+
+    .banner__title-block h2 {
+        font-size: 35px;
+    }
+
     .banner__sphere {
-        right: -35px;
-        top: -24px;
+        right: 3px;
+        top: -28px;
+        background-size: 85%;
     }
 
     .banner__silk {
-        right: -37px;
-        top: -27px;
+        height: 255px;
+        right: -2px;
+        top: -23px;
+        background-size: 235%;
     }
 
 }
@@ -1135,6 +1150,43 @@ input, textarea {
 .on-the-go-btn:active {
     background-color: #434756;
     color: #fff;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .on-the-go__wrapper {
+        max-width: 1102px;
+    }
+
+    .on-the-go::before {
+        top: -110px;
+        background-position: 99% 0;
+    }
+
+    .on-the-go__right {
+        width: 579px;
+    }
+
+    .browser-window {
+        height: 416px;
+        left: 24px;
+    }
+
+    .on-the-go__subtitle {
+        font-size: 38px;
+        line-height: 53px;
+    }
+
+    .on-the-go__links {
+        margin-bottom: 33px;
+    }
+
+    .on-the-go-btn {
+        font-size: 17px;
+        width: 385px;
+        height: 57px;
+    }
+
 }
 
 @media screen and (max-width: 1050px) {
