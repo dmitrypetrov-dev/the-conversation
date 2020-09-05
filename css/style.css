@@ -196,11 +196,11 @@ input, textarea {
 @media screen and (max-width: 1366px) {
 
     .header {
-        padding: 9px 0 2px 0;
+        padding: 10px 0 2px 0;
     }
 
     .header__wrapper {
-        padding-right: 84px;
+        padding-right: 28px;
     }
 
     .header-logo {
@@ -541,7 +541,7 @@ input, textarea {
 @media screen and (max-width: 1366px) {
 
     .container {
-        max-width: 1149px;
+        max-width: 1093px;
     }
 
     .intro {
@@ -572,7 +572,7 @@ input, textarea {
         width: 400px;
         height: 400px;
         top: 102px;
-        right: 11.89%;
+        right: 9.8%;
         background-size: 469px;
     }
 
