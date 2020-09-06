@@ -730,6 +730,10 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .technology {
+        height: 507px;
+    }
+
     .technology__wrapper {
         max-width: 1159px;
     }
@@ -1143,6 +1147,7 @@ input, textarea {
 .on-the-go-btn {
     width: 405px;
     height: 60px;
+    background-color: #fff;
 }
 
 .on-the-go-btn:hover,
@@ -1325,6 +1330,7 @@ input, textarea {
     top: 12px;
     left: -23px;
     border-radius: 7px;
+    background-color: #fff;
 }
 
 .production__right {
@@ -1385,8 +1391,45 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
+    .production {
+        margin-bottom: 292px;
+    }
+
+    .production__wrapper {
+        padding-right: 94px;
+    }
+
     .production::before {
+        top: -325px;
         background-position: 0 28%;
+    }
+
+    .production__right {
+        padding-right: 20px;
+    }
+
+    .production__left {
+        width: 550px;
+    }
+
+    .production__browser-window {
+        height: 392px;
+        top: 16px;
+        left: 9px;
+    }
+
+    .production__title {
+        margin-bottom: 31px;
+    }
+
+    .production__subtitle {
+        font-size: 40px;
+        line-height: 51px;
+        margin-bottom: 43px;
+    }
+
+    .production__list-item > div span {
+        top: 2px;
     }
 
 }
@@ -1544,6 +1587,41 @@ input, textarea {
     top: -12px;
     left: 11px;
     border-radius: 7px;
+}
+
+@media screen and (max-width: 1366px) {
+    .enterprise__wrapper {
+        max-width: 1110px;
+    }
+
+    .enterprise__right {
+        width: 560px;
+    }
+
+    .enterprise__browser-window {
+        top: -10px;
+        left: 9px;
+    }
+
+    .enterprise__title {
+        margin-bottom: 29px;
+    }
+
+    .enterprise__subtitle {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .enterprise__text {
+        margin-bottom: 34px;
+    }
+
+    .enterprise-btn {
+        width: 232px;
+        height: 58px;
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 1050px) {
@@ -1736,6 +1814,37 @@ input, textarea {
 .extension-btn:active {
     background-color: #8D4AB5;
     color: #fff;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .extension__title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 96px;
+    }
+
+    .extension__blocks {
+        max-width: 1051px;
+        padding-right: 13px;
+    }
+
+    .extension__block {
+        height: 603px;
+        width: 319px;
+    }
+
+    .extension__block-header {
+        height: 164px;
+    }
+
+    .extension__block-list {
+        margin-bottom: 20px;
+    }
+
+    .extension__block-list li {
+        line-height: 46px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
