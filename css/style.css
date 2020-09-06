@@ -1021,6 +1021,7 @@ input, textarea {
     left: 25px;
     border-radius: 7px;
     background-color: #fff;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
 }
 
 .browser-window__panel {
@@ -1319,7 +1320,7 @@ input, textarea {
 }
 
 .production__left {
-    width: 580px;
+    width: 567px;
     position: relative;
 }
 
@@ -1331,6 +1332,7 @@ input, textarea {
     left: -23px;
     border-radius: 7px;
     background-color: #fff;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
 }
 
 .production__right {
