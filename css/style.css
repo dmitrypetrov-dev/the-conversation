@@ -1019,7 +1019,7 @@ input, textarea {
     height: 439px;
     top: 27px;
     left: 25px;
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
 }
@@ -1330,7 +1330,7 @@ input, textarea {
     height: 407px;
     top: 12px;
     left: -23px;
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
 }
@@ -1411,7 +1411,7 @@ input, textarea {
     }
 
     .production__left {
-        width: 550px;
+        width: 547px;
     }
 
     .production__browser-window {
