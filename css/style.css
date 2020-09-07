@@ -809,7 +809,7 @@ input, textarea {
     }
 
     .technology__left {
-        width: 100%;
+        width: 90%;
     }
 
     .technology__subtitle {
@@ -1486,7 +1486,7 @@ input, textarea {
 @media screen and (max-width: 600px) {
 
     .production__left {
-        width: 100%;
+        width: 96%;
     }
 
     .production__right {
