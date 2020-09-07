@@ -1880,19 +1880,19 @@ input, textarea {
 
 @media screen and (max-width: 700px) {
 
-    .slick-list {
-        overflow: hidden;
-    }
-
-    .slick-track {
-        display: flex;
-        padding: 35px 0;
+    .extension__blocks {
+        flex-direction: column;
+        align-items: center;
     }
 
     .extension__block {
-        max-width: 336px;
-        margin-right: 35px;
-        outline: none;
+        width: 336px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .extension__block:last-child {
+        margin-bottom: 0;
     }
 }
 
@@ -1901,29 +1901,9 @@ input, textarea {
     .extension__title {
         font-size: 37px;
     }
-
-    .extension__blocks {
-        height: 700px;
-    }
-
-    .extension__block {
-        max-width: 300px;
-        margin-right: 35px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    .extension__block {
-        margin-right: 30px;
-    }
 }
 
 @media screen and (max-width: 375px) {
-
-    .extension__block {
-        margin-right: 20px;
-    }
 
     .extension__title {
         font-size: 34px;
