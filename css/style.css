@@ -951,7 +951,7 @@ input, textarea {
     height: 270px;
     right: 0;
     top: -32px;
-    background: url(../img/svg/banner-img-2.svg) no-repeat;
+    background: url(../img/svg/banner-img.svg) no-repeat;
     background-position: 104% 42%;
     z-index: 100;
 }
@@ -963,7 +963,7 @@ input, textarea {
     height: 270px;
     right: 0;
     top: -35px;
-    background: url(../img/svg/banner-img.svg) no-repeat;
+    background: url(../img/banner-silk.png) no-repeat;
     background-position: 100% 53%;
     z-index: 150;
 }
