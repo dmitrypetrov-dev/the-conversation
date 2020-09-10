@@ -353,7 +353,7 @@ input, textarea {
     height: 930px;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #8360ac;
     z-index: -50;
 }
 
@@ -564,8 +564,6 @@ input, textarea {
 
     .intro {
         padding-top: 117px;
-        background: url(../img/intro-bg.png) 0 -12px no-repeat;
-        background-size: cover;
     }
 
     .intro__title {
