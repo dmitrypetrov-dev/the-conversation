@@ -337,7 +337,7 @@ input, textarea {
 /*Intro styles*/
 
 .intro {
-    background: url(../img/intro-bg.png) 0 -12px no-repeat, url(../img/intro-bg-min.png) 0 -12px no-repeat;
+    background: url(../img/intro-bg.png) 0 -12px no-repeat, url(../img/intro-bg-min.jpg) 0 -12px no-repeat;
     background-size: cover;
     max-width: 1440px;
     height: 1260px;
