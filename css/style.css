@@ -3,6 +3,7 @@
     src: local('Muli Light'), local('Muli-Light'), url('../fonts/Mulilight.woff2') format('woff2'), url('../fonts/Mulilight.woff') format('woff'), url('../fonts/Mulilight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
     src: local('Muli Regular'), local('Muli-Regular'), url('../fonts/Muliregular.woff2') format('woff2'), url('../fonts/Muliregular.woff') format('woff'), url('../fonts/Muliregular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
     src: local('Muli SemiBold'), local('Muli-SemiBold'), url('../fonts/Mulisemibold.woff2') format('woff2'), url('../fonts/Mulisemibold.woff') format('woff'), url('../fonts/Mulisemibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -24,6 +27,7 @@
     src: local('Muli Bold'), local('Muli-Bold'), url('../fonts/Mulibold.woff2') format('woff2'), url('../fonts/Mulibold.woff') format('woff'), url('../fonts/Mulibold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -31,6 +35,7 @@
     src: local('Muli ExtraBold'), local('Muli-ExtraBold'), url('../fonts/Muliextrabold.woff2') format('woff2'), url('../fonts/Muliextrabold.woff') format('woff'), url('../fonts/Muliextrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -38,6 +43,7 @@
     src: local('Muli Black'), local('Muli-Black'), url('../fonts/Muliblack.woff2') format('woff2'), url('../fonts/Muliblack.woff') format('woff'), url('../fonts/Muliblack.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
