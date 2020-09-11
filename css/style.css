@@ -348,33 +348,6 @@ input, textarea {
 
 /*Intro styles*/
 
-@-webkit-keyframes locationOpacity {
-    0% {
-        opacity: 0;
-        visibility: hidden;
-    }
-    to {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-@keyframes locationOpacity {
-    0% {
-        opacity: 0;
-        visibility: hidden;
-    }
-    to {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.globe-location {
-    animation-name: locationOpacity;
-    animation-duration: 1s;
-}
-
 @-webkit-keyframes fadeInRight {
     0% {
         opacity: 0;
@@ -434,6 +407,7 @@ input, textarea {
     top: 78px;
     right: 7.3%;
     background: url(../img/intro-globe.png) center no-repeat;
+    display: none;
 }
 
 .globe-location-1 {
