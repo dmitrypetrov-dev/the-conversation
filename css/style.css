@@ -592,6 +592,7 @@ input, textarea {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
+    line-height: unset;
     width: 193px;
     height: 47px;
     color: #fff;
