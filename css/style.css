@@ -321,6 +321,29 @@ input, textarea {
 
 /*Intro styles*/
 
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
 @-webkit-keyframes fadeInDown {
     0% {
         opacity: 0;
@@ -667,10 +690,13 @@ input, textarea {
 
 @media screen and (max-width: 1200px) {
 
+    .title-block {
+        margin-bottom: 15px;
+    }
+
     .intro__title {
         font-size: 50px;
         line-height: 67px;
-        margin-bottom: 15px;
         max-width: 500px;
     }
 
