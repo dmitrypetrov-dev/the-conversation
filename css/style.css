@@ -562,6 +562,11 @@ input, textarea {
     border-bottom: 24px solid rgba(255, 255, 255, 0.5);
 }
 
+.title-block {
+    height: 231px;
+    margin-bottom: 38px;
+}
+
 .intro__title {
     font-family: Muli, sans-serif;
     font-style: normal;
@@ -570,8 +575,6 @@ input, textarea {
     line-height: 77px;
     color: #fff;
     max-width: 560px;
-    height: 231px;
-    margin-bottom: 38px;
 }
 
 .intro__subtitle {
