@@ -125,11 +125,17 @@ input, textarea {
     appearance: none;
 }
 
+@media screen and (max-width: 1366px) {
+    .container {
+        max-width: 1093px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         padding: 0 15px;
+        max-width: 1050px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -219,6 +225,12 @@ input, textarea {
         margin-right: 44px;
     }
 
+}
+
+@media screen and (max-width: 1200px) {
+    .header__wrapper {
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -617,10 +629,6 @@ input, textarea {
 
 @media screen and (max-width: 1366px) {
 
-    .container {
-        max-width: 1093px;
-    }
-
     .intro {
         padding-top: 117px;
     }
@@ -664,6 +672,21 @@ input, textarea {
     .globe-location-3 {
         top: 238px;
         left: -78px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .intro__title {
+        font-size: 50px;
+        line-height: 67px;
+        margin-bottom: 15px;
+        max-width: 500px;
+    }
+
+    .intro__globe {
+        background-size: 440px;
     }
 
 }
