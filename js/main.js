@@ -51,6 +51,11 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $(".intro__globe").show();
+});
+
+
 
 
 
