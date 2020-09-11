@@ -47,26 +47,11 @@
 }
 
 @font-face {
-    font-family: 'Mediator Serif Web Narrow';
-    src: url('../fonts/MediatorSerifWebNarrow-Bold.eot');
-    src: local('Mediator Serif Web Narrow Bold'), local('MediatorSerifWebNarrow-Bold'),
-    url('../fonts/MediatorSerifWebNarrow-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/MediatorSerifWebNarrow-Bold.woff2') format('woff2'),
-    url('../fonts/MediatorSerifWebNarrow-Bold.woff') format('woff'),
-    url('../fonts/MediatorSerifWebNarrow-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mediator Serif Web';
-    src: url('../fonts/MediatorSerifWeb-Bold.eot');
-    src: local('Mediator Serif Web Bold'), local('MediatorSerifWeb-Bold'),
-    url('../fonts/MediatorSerifWeb-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/MediatorSerifWeb-Bold.woff2') format('woff2'),
-    url('../fonts/MediatorSerifWeb-Bold.woff') format('woff'),
-    url('../fonts/MediatorSerifWeb-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: "Mediator-Bold";
+    src: url("../fonts/Mediator-Bold.ttf") format("truetype"),
+    url("../fonts/Mediator-Bold.woff") format("woff"),
+    url("../fonts/Mediator-Bold.woff2") format("woff2");
+    font-weight: normal;
     font-style: normal;
 }
 
