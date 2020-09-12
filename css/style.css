@@ -627,6 +627,7 @@ input, textarea {
     text-align: center;
     border: 1.5px solid #fff;
     transition: all .2s linear;
+    padding: 15px 0;
 }
 
 .intro-btn:hover,
