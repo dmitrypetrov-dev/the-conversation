@@ -1487,6 +1487,7 @@ input, textarea {
     }
 
     .on-the-go__right {
+        width: 579px;
         height: 439px;
     }
 
@@ -1737,6 +1738,7 @@ input, textarea {
     }
 
     .production__left {
+        width: 547px;
         height: 407px;
     }
 
@@ -1938,6 +1940,7 @@ input, textarea {
     }
 
     .enterprise__right {
+        width: 560px;
         height: 418px;
     }
 
