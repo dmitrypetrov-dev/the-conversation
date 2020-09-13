@@ -51,8 +51,9 @@
     src: url("../fonts/Mediator-Bold.ttf") format("truetype"),
     url("../fonts/Mediator-Bold.woff") format("woff"),
     url("../fonts/Mediator-Bold.woff2") format("woff2");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
+    font-display: block;
 }
 
 html {
@@ -701,7 +702,7 @@ input, textarea {
 @media screen and (max-width: 1200px) {
 
     .title-block {
-        margin-bottom: 15px;
+        height: 200px;
     }
 
     .intro__title {
@@ -737,12 +738,36 @@ input, textarea {
 
     .intro__title {
         text-align: center;
-        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .intro::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 300px;
+        bottom: 188px;
+        left: 0;
+        background: url(../img/intro-wave-bg.png) 0 -24px no-repeat;
+        background-size: cover;
+        z-index: 50;
+    }
+
+    .intro__globe {
+        top: 578px;
+        z-index: 100;
     }
 
 }
 
 @media screen and (max-width: 600px) {
+
+    .title-block {
+        height: 180px;
+    }
 
     .intro__title {
         font-size: 47px;
@@ -750,15 +775,7 @@ input, textarea {
     }
 
     .intro__globe {
-        top: 478px;
-    }
-
-}
-
-@media screen and (max-width: 599px) {
-
-    .intro__globe {
-        display: none;
+        top: 640px;
     }
 
 }
