@@ -808,7 +808,7 @@ input, textarea {
     }
 
     .intro__title {
-        font-size: 40px;
+        font-size: 39px;
         line-height: 52px;
     }
 
@@ -818,7 +818,11 @@ input, textarea {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
+
+    .title-block {
+        height: 145px;
+    }
 
     .intro__title {
         font-size: 34px;
@@ -827,6 +831,18 @@ input, textarea {
 
     .intro__subtitle {
         font-size: 14px;
+    }
+
+    .intro::after {
+        background-position: -46px -24px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .intro::after {
+        background-position: -64px -24px;
     }
 
 }
