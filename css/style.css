@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: "Mediator-Bold";
+    font-family: "Mediator";
     src: url("../fonts/Mediator-Bold.ttf") format("truetype"),
     url("../fonts/Mediator-Bold.woff") format("woff"),
     url("../fonts/Mediator-Bold.woff2") format("woff2");
@@ -625,13 +625,12 @@ input, textarea {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: unset;
+    line-height: 0;
     width: 193px;
     height: 47px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    text-align: center;
     border: 1.5px solid #fff;
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
