@@ -800,6 +800,24 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 480px) {
+
+    .title-block {
+        height: 160px;
+        margin-bottom: 25px;
+    }
+
+    .intro__title {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .intro::after {
+        background-position: -14px -24px;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
 
     .intro__title {
