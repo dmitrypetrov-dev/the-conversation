@@ -621,7 +621,7 @@ input, textarea {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: Mediator, sans-serif;
+    font-family: Mediator, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
