@@ -1619,10 +1619,6 @@ input, textarea {
 
 @media screen and (max-width: 375px) {
 
-    .on-the-go {
-        margin-bottom: 30px;
-    }
-
     .on-the-go-btn {
         width: 100%;
         font-size: 16px;
