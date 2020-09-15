@@ -1072,8 +1072,33 @@ input, textarea {
     }
 
     .technology__icons {
-        height: 90vw;
+        height: 87vw;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .technology {
+        padding: 30px 0 0 0;
+        margin-bottom: 45px;
+    }
+
+    .technology__right {
+        height: 50%;
+    }
+
+    .technology__left {
+        top: -120px;
+    }
+
+    .technology__subtitle {
+        font-size: 35px;
+    }
+
+    .technology__text {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
