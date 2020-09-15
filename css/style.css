@@ -1838,10 +1838,15 @@ input, textarea {
 
     .production__left {
         width: 96%;
+        height: 80vw;
     }
 
     .production__right {
         width: 100%;
+    }
+
+    .production__browser-window {
+        height: 100%;
     }
 
     .production__list {
