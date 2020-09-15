@@ -2095,6 +2095,10 @@ input, textarea {
 
 @media screen and (max-width: 375px) {
 
+    .enterprise {
+        margin-bottom: 0;
+    }
+
     .enterprise__subtitle {
         font-size: 31px;
     }
