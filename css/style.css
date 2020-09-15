@@ -621,7 +621,7 @@ input, textarea {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: Mediator, Arial, sans-serif;
+    font-family: Mediator, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -635,7 +635,7 @@ input, textarea {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-    padding: 15px 0;
+    padding-top: 2px;
 }
 
 .intro-btn:hover,
