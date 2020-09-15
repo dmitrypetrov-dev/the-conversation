@@ -1577,10 +1577,12 @@ input, textarea {
 
     .on-the-go__right {
         width: 100%;
+        height: 100vw;
     }
 
     .browser-window {
         left: 0;
+        height: 100%;
     }
 
     .on-the-go__subtitle {
