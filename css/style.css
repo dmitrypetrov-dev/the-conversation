@@ -1101,14 +1101,26 @@ input, textarea {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
 
-    .technology__right {
-        margin-top: 245px;
+    .technology {
+        height: 800px;
     }
 
-    .technology__icons {
-        height: 360px;
+    .technology__left {
+        top: -80px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .technology {
+        height: 770px;
+    }
+
+    .technology__left {
+        top: -65px;
     }
 
     .technology__subtitle {
@@ -1611,15 +1623,6 @@ input, textarea {
         margin-bottom: 30px;
     }
 
-    .on-the-go__right {
-        margin-top: 270px;
-    }
-
-    .browser-window {
-        height: 285px;
-        top: -356px;
-    }
-
     .on-the-go-btn {
         width: 100%;
         font-size: 16px;
@@ -1886,14 +1889,6 @@ input, textarea {
 
 @media screen and (max-width: 375px) {
 
-    .production__browser-window {
-        height: 300px;
-    }
-
-    .production__right {
-        margin-top: 385px;
-    }
-
     .production__subtitle {
         font-size: 31px;
     }
@@ -2089,7 +2084,7 @@ input, textarea {
 @media screen and (max-width: 480px) {
 
     .enterprise {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
 
     .enterprise__subtitle {
@@ -2110,15 +2105,6 @@ input, textarea {
 
     .enterprise__text {
         font-size: 18px;
-    }
-
-    .enterprise__right {
-        margin-top: 260px;
-    }
-
-    .enterprise__browser-window {
-        height: 300px;
-        top: -350px;
     }
 }
 
