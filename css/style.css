@@ -1577,7 +1577,7 @@ input, textarea {
 
     .on-the-go__right {
         width: 100%;
-        height: 69vw;
+        height: 68vw;
     }
 
     .browser-window {
@@ -1590,6 +1590,18 @@ input, textarea {
         line-height: 140%;
     }
 
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .on-the-go__subtitle {
+        font-size: 35px;
+    }
+
+    .on-the-go__text {
+        font-size: 18px;
+    }
 
 }
 
@@ -1838,7 +1850,7 @@ input, textarea {
 
     .production__left {
         width: 96%;
-        height: 80vw;
+        height: 66vw;
     }
 
     .production__right {
@@ -1858,6 +1870,18 @@ input, textarea {
         font-size: 37px;
         line-height: 140%;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .production__subtitle {
+        font-size: 35px;
+    }
+
+    .production__list-item {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -2060,6 +2084,22 @@ input, textarea {
         font-size: 37px;
         line-height: 140%;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .enterprise {
+        margin-bottom: 100px;
+    }
+
+    .enterprise__subtitle {
+        font-size: 35px;
+    }
+
+    .enterprise__text {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -2285,6 +2325,13 @@ input, textarea {
 
     .extension__title {
         font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .extension__title {
+        font-size: 35px;
     }
 }
 
