@@ -55,13 +55,13 @@ $(document).ready(function () {
     $(".intro__globe").show();
 });
 
-// $(document).ready(function () {
-//     $(".intro__title-1").delay(500).fadeIn();
-//     $(".intro__title-2").hide().delay(1000).fadeIn();
-//     $(".intro__title-3").hide().delay(1500).fadeIn();
-//     $(".intro__subtitle").hide().delay(2100).fadeIn();
-//     $(".intro-btn").hide().delay(2100).fadeIn();
-// });
+$(document).ready(function () {
+    $(".intro__title-1").delay(500).fadeIn();
+    $(".intro__title-2").hide().delay(1000).fadeIn();
+    $(".intro__title-3").hide().delay(1500).fadeIn();
+    $(".intro__subtitle").hide().delay(2100).fadeIn();
+    $(".intro-btn").hide().delay(2100).fadeIn();
+});
 
 
 
